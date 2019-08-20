@@ -1,0 +1,20 @@
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'none'
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 1066
+Date: Wed, 14 Aug 2019 06:31:40 GMT
+Connection: keep-alive
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token - in JSON at position 0<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (C:\Users\USER\Desktop\Server\node_modules\body-parser\lib\types\json.js:158:10)<br> &nbsp; &nbsp;at parse (C:\Users\USER\Desktop\Server\node_modules\body-parser\lib\types\json.js:83:15)<br> &nbsp; &nbsp;at C:\Users\USER\Desktop\Server\node_modules\body-parser\lib\read.js:121:18<br> &nbsp; &nbsp;at invokeCallback (C:\Users\USER\Desktop\Server\node_modules\raw-body\index.js:224:16)<br> &nbsp; &nbsp;at done (C:\Users\USER\Desktop\Server\node_modules\raw-body\index.js:213:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\Users\USER\Desktop\Server\node_modules\raw-body\index.js:273:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (events.js:182:13)<br> &nbsp; &nbsp;at endReadableNT (_stream_readable.js:1094:12)<br> &nbsp; &nbsp;at process._tickCallback (internal/process/next_tick.js:63:19)</pre>
+</body>
+</html>
